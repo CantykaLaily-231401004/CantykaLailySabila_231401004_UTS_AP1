@@ -6,6 +6,7 @@ int main() {
     char ulang;
     do {
         system("CLS");
+        
         cout << "===================================================" << endl;
         cout << "##    Program Konversi Kalimat ke Huruf Besar    ##" << endl;
         cout << "===================================================" << endl;

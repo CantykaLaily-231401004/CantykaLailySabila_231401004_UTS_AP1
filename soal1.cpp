@@ -19,7 +19,7 @@ int main() {
         if (detik < 0 ) {
             cout << "Program tidak dapat berjalan, Anda memasukkan angka negatif." << endl;
         }
-        else if (detik > 356400) { 
+        else if (detik > 359999) { //99:59:59
             cout << "Program tidak dapat berjalan. Anda terlalu banyak memasukkan angka." << endl;
         }
         else {
