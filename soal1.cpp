@@ -12,7 +12,7 @@ int main() {
         cout << "==========================================================================" << endl;
         cout << endl;
         
-        cout << "Masukkan jumlah detik : "; 
+        cout << "Masukkan jumlah detik: "; 
         cin >> detik;
         cout << endl;
 
