@@ -21,10 +21,12 @@ int main() {
             kalimat[i] = toupper(kalimat[i]); 
         }
         cout << "Hasil konversi: " << kalimat << endl; 
+        cout << endl;
 
         cout << "Apakah anda ingin mengulang perhitungan (Y/T)?: ";
         cin >> ulang;
         cin.ignore();
+        cout << endl;
     } while (ulang == 'Y' || ulang == 'y'); 
 
     cout << "Terima kasih telah menggunakan program ini." << endl;
