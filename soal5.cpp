@@ -30,5 +30,6 @@ int main() {
     else {
         cout << "Kata kunci salah. Pesan rahasia tidak bisa dilihat." << endl;
     }
+    system("pause");
     return 0;
 }

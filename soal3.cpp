@@ -13,7 +13,7 @@ int main() {
         cout << "====================================================" << endl;
         cout << endl;
 
-        cout << "Masukkan Angka: ";
+        cout << "Masukkan Sejumlah Angka: ";
         cin >> angka;
         cout << endl;
 
@@ -23,7 +23,7 @@ int main() {
             break;
         }
         else {
-            cout << "Angka prima yang terdapat pada angka tersebut adalah ";
+            cout << "Angka prima yang terdapat pada sejumlah angka tersebut adalah ";
             while (angka > 0) {
                 int digit = angka % 10;
                 bool prima = true;
@@ -45,7 +45,7 @@ int main() {
                 angka /= 10;
             }
             cout << endl;
-            cout << "Jumlah bilangan prima: " << jumlah << endl;
+            cout << "Jumlah angka prima adalah " << jumlah << endl;
             cout << endl;
         }
         cout << "Apakah anda ingin mengulang perhitungan (Y/T)?: ";
